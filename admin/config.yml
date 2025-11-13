@@ -56,6 +56,7 @@ collections:
                   - { label: "Public Speaking", value: "public-speaking" }
                   - { label: "Self-Esteem", value: "self-esteem" }
                   - { label: "Parenting", value: "parenting" }
+                  - { label: "Motivation", value: "motivation" }
                   - { label: "Career", value: "career" }
               - { label: "Tags", name: "tags", widget: "list", required: false }
               - { label: "Ringkasan", name: "excerpt", widget: "text", required: false }
