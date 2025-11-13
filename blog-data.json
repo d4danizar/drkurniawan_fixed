@@ -15,7 +15,8 @@
       "title": "Seminar Parenting: Pencegahan Stunting Melalui Pendekatan Parenting",
       "date": "2025-07-12T00:00:00.000+07:00",
       "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1762655060/lj7yyhcn1lek8rmyagsf.jpg",
-      "cat": "parenting"
+      "cat": "parenting",
+      "slug": "seminar-parenting-pencegahan-stunting-melalui-pendekatan-parenting"
     },
     {
       "author": "Dr. Kurniawan",
@@ -23,7 +24,8 @@
       "title": "Pelatihan Public Speaking untuk Calon Dokter Fakultas Kedokteran UNS",
       "date": "2025-11-09T00:00:00.000+07:00",
       "cat": "public-speaking",
-      "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1763020232/WhatsApp_Image_2025-11-12_at_07.03.58_be0xdl.jpg"
+      "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1763020232/WhatsApp_Image_2025-11-12_at_07.03.58_be0xdl.jpg",
+      "slug": "pelatihan-public-speaking-untuk-calon-dokter-fakultas-kedokteran-uns"
     },
     {
       "author": "Dr. Kurniawan",
@@ -31,7 +33,8 @@
       "title": "Seminar Parenting: Membangun Rasa Percaya Diri Anak Melalui Bahasa dan Kesantunan",
       "date": "2025-10-06T00:00:00.000+07:00",
       "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1762655062/s2jhw4vvlns3ozr417px.jpg",
-      "cat": "parenting"
+      "cat": "parenting",
+      "slug": "seminar-parenting-membangun-rasa-percaya-diri-anak-melalui-bahasa-dan-kesantunan"
     },
     {
       "author": "Dr. Kurniawan",
@@ -39,7 +42,8 @@
       "title": "Seminar & Pelatihan Public Speaking di Pondok Pesantren Islam Al-Mukmin Ngruki Sukoharjo",
       "date": "2025-08-13T00:00:00.000+07:00",
       "cat": "public-speaking",
-      "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1762655728/fmhomiagebifu9lhmd5k.heic"
+      "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1762655728/fmhomiagebifu9lhmd5k.heic",
+      "slug": "seminar-dan-pelatihan-public-speaking-di-pondok-pesantren-islam-al-mukmin-ngruki-sukoharjo"
     },
     {
       "author": "Dr. Kurniawan",
@@ -47,7 +51,8 @@
       "title": "Dua Hari Intensif Mengasah Komunikasi Pemimpin: Pelatihan Public Speaking di Favehotel Malang",
       "date": "2025-11-02T00:00:00.000+07:00",
       "cat": "public-speaking",
-      "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1762966689/IMG_7062_jytjtl.heic"
+      "cover": "https://res.cloudinary.com/dy7lzcjfb/image/upload/f_auto,q_auto/v1762966689/IMG_7062_jytjtl.heic",
+      "slug": "dua-hari-intensif-mengasah-komunikasi-pemimpin-pelatihan-public-speaking-di-favehotel-malang"
     }
   ]
 }
