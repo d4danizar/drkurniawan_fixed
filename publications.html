@@ -224,24 +224,30 @@
     document.getElementById('waFoot').href = waHref();
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // ===== (BARU) Hamburger Menu Toggle =====
-    try {
-      const toggleBtn = document.querySelector('.nav-toggle');
-      const linksContainer = document.querySelector('.nav-links');
-      
-      if (toggleBtn && linksContainer) {
-        toggleBtn.addEventListener('click', () => {
-          // Toggle class 'active' pada container link
-          linksContainer.classList.toggle('active');
-          
-          // Update ARIA attribute untuk aksesibilitas
-          const isExpanded = linksContainer.classList.contains('active');
-          toggleBtn.setAttribute('aria-expanded', isExpanded);
-        });
+    // ===== (BARU) Hamburger Menu Toggle (VERSI BENAR DARI BLOG.HTML) =====
+try {
+  const tog = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  if (tog && links) {
+    tog.addEventListener('click', (e) => {
+      e.stopPropagation();
+      // MENGGUNAKAN '.show' BUKAN '.active'
+      const open = links.classList.toggle('show'); 
+      tog.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    
+    // Kode untuk menutup menu saat klik di luar
+    document.addEventListener('click', (e) => {
+      const clickInsideNav = links.contains(e.target) || tog.contains(e.target);
+      if (!clickInsideNav && links.classList.contains('show')) {
+        links.classList.remove('show');
+        tog.setAttribute('aria-expanded', 'false');
       }
-    } catch (e) {
-      console.error('Error setting up nav toggle:', e);
-    }
+    });
+  }
+} catch (e) {
+   console.error('Error setting up nav toggle:', e);
+}
 
     // ===== Utilities =====
     const computeTargetLink = (p) => p.link_doi || p.link_pdf || p.link_buy || '#';
