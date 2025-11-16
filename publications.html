@@ -27,8 +27,23 @@
     /* Content */
     .item .meta{flex:1 1 auto;min-width:0}
     .item h3{font-size:1rem;line-height:1.3;margin:2px 0 6px}
-    .item p{font-size:.9rem;margin:6px 0}
-    .item small{font-size:.8rem;opacity:.8}
+    .item p{
+  font-size:.9rem;
+  margin:6px 0;
+  display: flex; /* Tambahkan ini */
+  align-items: center; /* Pastikan rata tengah secara vertikal */
+  flex-wrap: wrap; /* Izinkan wrap jika layar sangat kecil */
+  gap: 4px; /* Sedikit jarak antar elemen flex */
+}
+    .item small{
+  font-size:.8rem;
+  opacity:.8;
+  margin-left: auto; /* Ini akan mendorongnya ke kanan jika ada ruang */
+  flex-shrink: 0; /* Pastikan tidak mengecil */
+}
+.item p strong {
+  margin-right: 4px; /* Tambahkan sedikit jarak ke kanan dari nama penulis */
+}
 
     /* Actions */
     .actions{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
