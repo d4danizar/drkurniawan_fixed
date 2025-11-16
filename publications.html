@@ -8,15 +8,12 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     /* ======================================= */
-/* === (BARU) KODE UNTUK HAMBURGER MENU === */
+/* === (BARU) KODE TES PAKSA HAMBURGER  === */
 /* ======================================= */
 
-/* 1. Jadikan <nav> sebagai 'container'
-      Ini penting agar menu dropdown (langkah 4) 
-      bisa diposisikan relatif terhadap navbar */
+/* 1. Jadikan <nav> sebagai 'container' */
 .nav {
   position: relative;
-  /* (Opsional) Atur agar brand dan tombol sejajar rapi */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,55 +24,47 @@
   display: none;
   background: none;
   border: none;
-  font-size: 1.5rem; /* Bikin icon '☰' lebih besar */
+  font-size: 1.5rem;
   cursor: pointer;
-  color: #3341A0; /* Samakan warna dg .pub-type (Opsional) */
+  color: #3341A0;
 }
 
-/* 3. Gunakan breakpoint 560px yang sudah Anda pakai */
+/* 3. Gunakan breakpoint 560px */
 @media (max-width: 560px) {
 
   /* 3a. Tampilkan tombol hamburger di mobile */
   .nav-toggle {
-    display: block;
+    display: block !important; /* Paksa tampil */
   }
 
   /* 3b. Sembunyikan menu link (default di mobile) */
   .nav-links {
-    display: none;
-    flex-direction: column; /* Susun link ke bawah */
-    width: 90%; /* Lebar dropdown, jangan 100% */
-    
-    /* 3c. Ubah jadi menu "dropdown" yang melayang */
+    display: none !important; /* Paksa sembunyi (default) */
+    flex-direction: column; 
+    width: 90%;
     position: absolute;
-    z-index: 100; /* Pastikan menu di atas konten lain */
-    
-    /* SESUAIKAN INI: Jarak dari atas. 
-       Mungkin 60px atau 70px tergantung tinggi navbar Anda */
+    z-index: 9999 !important; /* Paksa di paling atas */
     top: 60px; 
-    right: 5%; /* Posisikan di kanan */
-    
-    /* 3d. Beri style agar konsisten dengan kartu .item */
+    right: 5%;
     background: #fff;
     border: 1px solid #E6E7F2;
-    border-radius: 12px; /* Samakan dengan .item */
+    border-radius: 12px;
     padding: 8px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.08);
   }
 
   /* 3e. TAMPILKAN menu saat .active (dari JS) */
   .nav-links.active {
-    display: flex;
+    display: flex !important; /* INI KUNCINYA: PAKSA TAMPIL */
   }
   
   /* 3f. Rapikan link di dalam dropdown */
   .nav-links .btn {
      text-align: left;
      padding: 0.8rem 0.7rem;
-     width: 100%; /* Buat tombol selebar dropdown */
+     width: 100%;
   }
   
-  /* 3g. Pastikan tombol WA juga rapi */
   .nav-links .btn-accent {
      margin-top: 8px;
      text-align: center;
