@@ -65,15 +65,11 @@
     }
     
     /* ATURAN KHUSUS HANYA UNTUK INFO PENULIS */
-    .item p.author-info {
-      /* Ini akan membuat baris Penulis • Tahun terlihat rapi */
-      display: flex;
-      justify-content: flex-start;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 0.5em; /* Jarak antara penulis dan tahun */
-      margin: 2px 0 6px; /* Samakan margin dengan h3 */
-    }
+    /* ATURAN KHUSUS HANYA UNTUK TAHUN (TIDAK AKAN MERUSAK LABEL) */
+.item p.author-info small {
+  font-size: .8rem;
+  opacity: .8;
+}
 
     /* ATURAN UMUM UNTUK SMALL (KEMBALI KE ASLI) */
     .item small {
