@@ -20,6 +20,7 @@
       margin-bottom: 8px;   /* Jarak ke judul di bawahnya */
       text-transform: capitalize;
       color: #3341A0;
+      opacity: 1; /* <-- INI DIA YANG HILANG! */
     }
 
     /* ===== Controls (match blog filter styles) ===== */
@@ -43,7 +44,6 @@
     .item .meta {
       flex: 1 1 auto;
       min-width: 0;
-      /* MEMASTIKAN TATA LETAK VERTIKAL (MEMPERBAIKI BUG 'KACAU') */
       display: flex;
       flex-direction: column;
       align-items: stretch;
@@ -53,30 +53,37 @@
       font-size: 1rem;
       line-height: 1.3;
       margin: 2px 0 6px;
-      /* Memastikan judul adalah blok */
       display: block;
       width: 100%;
     }
 
-.item p.author-info small {
-  font-size: .8rem;
-  opacity: .8;
-}
+    /* ATURAN UNTUK TAHUN (SUDAH BENAR) */
+    .item p.author-info small {
+      font-size: .8rem;
+      opacity: .8;
+    }
     
     /* ATURAN KHUSUS HANYA UNTUK INFO PENULIS */
     .item p.author-info {
-      /* Ini akan membuat baris Penulis • Tahun terlihat rapi */
       display: flex;
       justify-content: flex-start;
       align-items: baseline;
       flex-wrap: wrap;
-      gap: 0.5em; /* Jarak antara penulis dan tahun */
-      margin: 2px 0 6px; /* Samakan margin dengan h3 */
+      gap: 0.5em; 
+      margin: 2px 0 6px;
     }
 
-    /* Mengatur agar nama penulis tidak mengecil */
+    /* Mengatur agar nama penulis tidak mengecil & SESUAI PERMINTAAN BARU */
     .item p.author-info strong {
       flex-shrink: 0;
+      font-size: 0.85rem; /* <-- UKURAN FONT BARU UNTUK PENULIS */
+      font-weight: 600; /* <-- SEDIKIT LEBIH TIPIS DARI BOLD BIASA */
+    }
+
+    /* ATURAN PARAGRAF UMUM (UNTUK EXCERPT) */
+    .item p {
+      font-size: .9rem;
+      margin: 6px 0;
     }
 
     /* Actions (Tidak digunakan) */
