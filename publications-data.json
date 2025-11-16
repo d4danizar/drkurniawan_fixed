@@ -1,34 +1,56 @@
 {
   "publications": [
     {
-      "type": "journal",
-      "title": "Parentinguistic: Parenting Supportive Message of Expressive Act in Parenting Perspective",
+      "link_buy": "https://tokopedia.com/produk-buku",
+      "excerpt": "This study explores supportive parental messages and their meanings in parenting films. Using qualitative methods and speech act theory, it finds that each message serves distinct purposes shaped by the speaker’s background. Such “Parentinguistic” expressions strengthen solidarity and harmony in parent–child communication.",
       "authors": "Kurniawan, K.",
-      "year": 2023,
+      "link_pdf": "http://dx.doi.org/10.21093/ijeltal.v8i2.1440",
+      "cover": "assets/publications/1440-4275-1-PB-1_page-0001.jpg",
+      "title": "Parentinguistic: Parenting Supportive Message of Expressive Act in Parenting Perspective",
       "tags": [
         "parenting",
         "linguistic"
       ],
-      "excerpt": "This study explores supportive parental messages and their meanings in parenting films. Using qualitative methods and speech act theory, it finds that each message serves distinct purposes shaped by the speaker’s background. Such “Parentinguistic” expressions strengthen solidarity and harmony in parent–child communication.",
-      "cover": "assets/publications/1440-4275-1-PB-1_page-0001.jpg",
-      "link_pdf": "http://dx.doi.org/10.21093/ijeltal.v8i2.1440",
-      "link_buy": "https://tokopedia.com/produk-buku",
-      "link_doi": "http://dx.doi.org/10.21093/ijeltal.v8i2.1440"
+      "link_doi": "http://dx.doi.org/10.21093/ijeltal.v8i2.1440",
+      "type": "journal",
+      "year": 2023
     },
     {
-      "type": "journal",
-      "title": "CHILDREN’S RESPONSE TO THE UTTERANCES OF THEIR PARENTS’ NEGATION: COMMUNITIES IN KARTASURA",
+      "link_buy": "",
+      "excerpt": "This study examines how Kartasura children respond to parents’ negative utterances. Most comply due to strong Javanese values of obedience, though some resist. The study highlights that parental negation is acceptable when used moderately",
       "authors": "Kurniawan, K.",
-      "year": 2020,
+      "link_pdf": "https://dx.doi.org/10.30743/ll.v4i1.2406",
+      "cover": "assets/publications/215-78-PB-1_page-0001.jpg",
+      "title": "CHILDREN’S RESPONSE TO THE UTTERANCES OF THEIR PARENTS’ NEGATION: COMMUNITIES IN KARTASURA",
       "tags": [
         "parenting",
         "children"
       ],
-      "excerpt": "This study examines how Kartasura children respond to parents’ negative utterances. Most comply due to strong Javanese values of obedience, though some resist. The study highlights that parental negation is acceptable when used moderately",
-      "cover": "assets/publications/215-78-PB-1_page-0001.jpg",
-      "link_pdf": "https://dx.doi.org/10.30743/ll.v4i1.2406",
-      "link_buy": "",
-      "link_doi": "https://dx.doi.org/10.30743/ll.v4i1.2406"
+      "link_doi": "https://dx.doi.org/10.30743/ll.v4i1.2406",
+      "type": "journal",
+      "year": 2020
+    },
+    {
+      "type": "journal",
+      "title": "Parentinguistics: Authoritarian and Permissive Communication Styles in Parents' Expressive Speech Acts",
+      "authors": "Kurniawan Kurniawan",
+      "year": 2023,
+      "tags": [
+        "Parenting"
+      ],
+      "excerpt": "This study focuses on the relationship between authoritarian or permissive parenting styles on aspects of language, especially expressive speech acts. A qualitative descriptive pragmatic approach is applied in this study. The data in this study are in the form of textual sources from the film \"Nanti Kita Cerita Tentang Hari Ini\". The film was chosen because it has a family theme and presents parent-child conflicts that can be examined in terms of parenting and linguistic aspects.",
+      "link_doi": "https://doi.org/10.31332/lkw.v0i0.5991"
+    },
+    {
+      "type": "journal",
+      "title": "THE LANGUAGE OF PARENTING: REVEALING THE USAGE OF CONTROL ACTS IN THE PURSUIT OF HAPPYNESS",
+      "authors": "Kurniawan Kurniawan",
+      "year": 2023,
+      "tags": [
+        "Parenting"
+      ],
+      "excerpt": "In paternal parenting, compared to the mother, the father tends to use controlling language that provokes conversation, such as WH questions and requests for clarification. Controlling language (control acts) is an attempt to generate a change in the actions of others. Through a pragmatic approach, this qualitative study explores the strategy, pattern, and politeness of controlling language through a paternal parenting perspective. ",
+      "link_doi": "https://doi.org/10.18860/ling.v18i1.20685"
     }
   ]
 }
