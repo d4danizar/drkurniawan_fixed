@@ -1,11 +1,10 @@
 backend:
   name: git-gateway
   branch: main
-  identity_url: "https://drkurniawan-01.netlify.app/.netlify/identity"
-  gateway_url: "https://drkurniawan-01.netlify.app/.netlify/git"
+
 
 local_backend: true
-publish_mode: simple
+publish_mode: editorial_workflow
 
 site_url: "https://drkurniawan.com"
 display_url: "https://drkurniawan.com"
