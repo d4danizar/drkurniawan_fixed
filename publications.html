@@ -7,6 +7,80 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <style>
+    /* ======================================= */
+/* === (BARU) KODE UNTUK HAMBURGER MENU === */
+/* ======================================= */
+
+/* 1. Jadikan <nav> sebagai 'container'
+      Ini penting agar menu dropdown (langkah 4) 
+      bisa diposisikan relatif terhadap navbar */
+.nav {
+  position: relative;
+  /* (Opsional) Atur agar brand dan tombol sejajar rapi */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 2. Sembunyikan tombol hamburger di layar besar (Desktop) */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem; /* Bikin icon '☰' lebih besar */
+  cursor: pointer;
+  color: #3341A0; /* Samakan warna dg .pub-type (Opsional) */
+}
+
+/* 3. Gunakan breakpoint 560px yang sudah Anda pakai */
+@media (max-width: 560px) {
+
+  /* 3a. Tampilkan tombol hamburger di mobile */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* 3b. Sembunyikan menu link (default di mobile) */
+  .nav-links {
+    display: none;
+    flex-direction: column; /* Susun link ke bawah */
+    width: 90%; /* Lebar dropdown, jangan 100% */
+    
+    /* 3c. Ubah jadi menu "dropdown" yang melayang */
+    position: absolute;
+    z-index: 100; /* Pastikan menu di atas konten lain */
+    
+    /* SESUAIKAN INI: Jarak dari atas. 
+       Mungkin 60px atau 70px tergantung tinggi navbar Anda */
+    top: 60px; 
+    right: 5%; /* Posisikan di kanan */
+    
+    /* 3d. Beri style agar konsisten dengan kartu .item */
+    background: #fff;
+    border: 1px solid #E6E7F2;
+    border-radius: 12px; /* Samakan dengan .item */
+    padding: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  }
+
+  /* 3e. TAMPILKAN menu saat .active (dari JS) */
+  .nav-links.active {
+    display: flex;
+  }
+  
+  /* 3f. Rapikan link di dalam dropdown */
+  .nav-links .btn {
+     text-align: left;
+     padding: 0.8rem 0.7rem;
+     width: 100%; /* Buat tombol selebar dropdown */
+  }
+  
+  /* 3g. Pastikan tombol WA juga rapi */
+  .nav-links .btn-accent {
+     margin-top: 8px;
+     text-align: center;
+  }
+}
 /* ===== Style untuk Label Tipe Publikasi ===== */
    .item small.pub-type {
       display: inline-block;
@@ -160,6 +234,25 @@
     document.getElementById('waTop').href = waHref();
     document.getElementById('waFoot').href = waHref();
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ===== (BARU) Hamburger Menu Toggle =====
+    try {
+      const toggleBtn = document.querySelector('.nav-toggle');
+      const linksContainer = document.querySelector('.nav-links');
+      
+      if (toggleBtn && linksContainer) {
+        toggleBtn.addEventListener('click', () => {
+          // Toggle class 'active' pada container link
+          linksContainer.classList.toggle('active');
+          
+          // Update ARIA attribute untuk aksesibilitas
+          const isExpanded = linksContainer.classList.contains('active');
+          toggleBtn.setAttribute('aria-expanded', isExpanded);
+        });
+      }
+    } catch (e) {
+      console.error('Error setting up nav toggle:', e);
+    }
 
     // ===== Utilities =====
     const computeTargetLink = (p) => p.link_doi || p.link_pdf || p.link_buy || '#';
