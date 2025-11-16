@@ -1,6 +1,17 @@
 {
   "publications": [
     {
+      "type": "journal",
+      "title": "Parentinguistic: A Form and Function of Compliment Expression",
+      "authors": "Kurniawan Kurniawan",
+      "year": 2025,
+      "tags": [
+        "Parenting"
+      ],
+      "excerpt": "This study sought to explain the patterns of compliment expression utilization in infant-directed speech by mother from parenting perspective. This phenomenon was issued because children’s perceptual, social, and linguistic developments are significantly influenced by the intensity and quality of infant-directed speech. This study was also intended to help parents understand the importance of compliment expression in early parenting. ",
+      "link_doi": "https://doi.org/10.24036/humanus.v24i1.124679"
+    },
+    {
       "link_buy": "https://tokopedia.com/produk-buku",
       "excerpt": "This study explores supportive parental messages and their meanings in parenting films. Using qualitative methods and speech act theory, it finds that each message serves distinct purposes shaped by the speaker’s background. Such “Parentinguistic” expressions strengthen solidarity and harmony in parent–child communication.",
       "authors": "Kurniawan, K.",
@@ -14,21 +25,6 @@
       "link_doi": "http://dx.doi.org/10.21093/ijeltal.v8i2.1440",
       "type": "journal",
       "year": 2023
-    },
-    {
-      "link_buy": "",
-      "excerpt": "This study examines how Kartasura children respond to parents’ negative utterances. Most comply due to strong Javanese values of obedience, though some resist. The study highlights that parental negation is acceptable when used moderately",
-      "authors": "Kurniawan, K.",
-      "link_pdf": "https://dx.doi.org/10.30743/ll.v4i1.2406",
-      "cover": "assets/publications/215-78-PB-1_page-0001.jpg",
-      "title": "CHILDREN’S RESPONSE TO THE UTTERANCES OF THEIR PARENTS’ NEGATION: COMMUNITIES IN KARTASURA",
-      "tags": [
-        "parenting",
-        "children"
-      ],
-      "link_doi": "https://dx.doi.org/10.30743/ll.v4i1.2406",
-      "type": "journal",
-      "year": 2020
     },
     {
       "type": "journal",
@@ -64,15 +60,19 @@
       ]
     },
     {
-      "type": "journal",
-      "title": "Parentinguistic: A Form and Function of Compliment Expression",
-      "authors": "Kurniawan Kurniawan",
-      "year": 2025,
+      "link_buy": "",
+      "excerpt": "This study examines how Kartasura children respond to parents’ negative utterances. Most comply due to strong Javanese values of obedience, though some resist. The study highlights that parental negation is acceptable when used moderately",
+      "authors": "Kurniawan, K.",
+      "link_pdf": "https://dx.doi.org/10.30743/ll.v4i1.2406",
+      "cover": "assets/publications/215-78-PB-1_page-0001.jpg",
+      "title": "CHILDREN’S RESPONSE TO THE UTTERANCES OF THEIR PARENTS’ NEGATION: COMMUNITIES IN KARTASURA",
       "tags": [
-        "Parenting"
+        "parenting",
+        "children"
       ],
-      "excerpt": "This study sought to explain the patterns of compliment expression utilization in infant-directed speech by mother from parenting perspective. This phenomenon was issued because children’s perceptual, social, and linguistic developments are significantly influenced by the intensity and quality of infant-directed speech. This study was also intended to help parents understand the importance of compliment expression in early parenting. ",
-      "link_doi": "https://doi.org/10.24036/humanus.v24i1.124679"
+      "link_doi": "https://dx.doi.org/10.30743/ll.v4i1.2406",
+      "type": "journal",
+      "year": 2020
     }
   ]
 }
