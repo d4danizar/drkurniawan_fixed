@@ -37,6 +37,21 @@
     /* Empty state */
     #emptyMsg{text-align:center;margin:18px 0;display:none}
 
+    /* ===== Style untuk Label Tipe Publikasi ===== */
+    .pub-type {
+      display: inline-block;
+      padding: 3px 10px;
+      font-size: 0.75rem;    /* Membuatnya kecil */
+      font-weight: 600;
+      line-height: 1.4;
+      background: #F2F5FF;  /* Warna biru muda (sama dengan chip filter) */
+      border: 1px solid #E3E8FF;
+      border-radius: 999px; /* Bentuk kapsul/pil */
+      margin-bottom: 8px;   /* Jarak ke judul di bawahnya */
+      text-transform: capitalize; /* Ini akan mengubah "journal" -> "Journal" */
+      color: #3341A0;      /* Warna teks biru tua agar kontras */
+    }
+
     /* Responsive: stack on small screens */
     @media (max-width: 560px){
       .item{flex-direction:column}
@@ -143,11 +158,12 @@
             aria-label="Buka tautan: ${p.title?.replace(/"/g,'&quot;')||'Publikasi'}"
           >
             <div class="meta" style="flex: 1;">
+              
+              ${p.type ? `<small class="pub-type">${p.type}</small>` : ''}
+
               <h3>${p.title || ''}</h3>
               <p><strong>${p.authors || ''}</strong> • <small>${p.year || ''}</small></p>
-              
               ${p.excerpt ? `<p>${p.excerpt}</p>` : ''}
-
             </div>
           </article>
         `;
