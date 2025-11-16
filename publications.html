@@ -142,9 +142,13 @@
             tabindex="0"
             aria-label="Buka tautan: ${p.title?.replace(/"/g,'&quot;')||'Publikasi'}"
           >
-            <div class="meta" style="flex: 1;"> <h3>${p.title || ''}</h3>
+            <div class="meta" style="flex: 1;">
+              <h3>${p.title || ''}</h3>
               <p><strong>${p.authors || ''}</strong> • <small>${p.year || ''}</small></p>
-              </div>
+              
+              ${p.excerpt ? `<p>${p.excerpt}</p>` : ''}
+
+            </div>
           </article>
         `;
       }).join('');
