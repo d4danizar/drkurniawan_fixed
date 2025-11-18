@@ -1,6 +1,17 @@
 {
   "publications": [
     {
+      "type": "book",
+      "title": "SELF-TALK: TINDAK PERLOKUSI RENUNGAN ORANG TUA SEBAGAI RESPON TUTURAN OLEH ANAK DALAM PARENTINGUISTIC",
+      "authors": "Kurniawan",
+      "year": 2025,
+      "tags": [
+        "Parenting"
+      ],
+      "excerpt": "Penelitian ini membahas self-talk sebagai tindak perlokusi, yaitu refleksi atau respon orang tua terhadap tuturan ekspresif anak. Menggunakan pendekatan kualitatif deskriptif, penelitian ini mengambil data dari film We Need to Talk About Kevin (2011). Ditemukan bahwa anak menggunakan berbagai tindak tutur ekspresif seperti menolak, mengkritik, menyangkal, dan tidak peduli. Berbeda dengan penelitian sebelumnya, temuan dalam film ini menunjukkan bahwa tindak perlokusi orang tua justru membuat anak semakin mendominasi dan tidak taat. Meskipun demikian, penelitian ini memvalidasi pentingnya self-talk bagi orang tua sebagai strategi untuk mengelola kemarahan agar tidak memicu konflik yang lebih besar.",
+      "link_pdf": "https://drive.google.com/file/d/1LCJTWkpgnlmoEKghnLOH2GD2uu4qnULV/view?usp=sharing"
+    },
+    {
       "type": "journal",
       "title": "Parentinguistic: A Form and Function of Compliment Expression",
       "authors": "Kurniawan Kurniawan",
@@ -10,6 +21,18 @@
       ],
       "excerpt": "This study sought to explain the patterns of compliment expression utilization in infant-directed speech by mother from parenting perspective. This phenomenon was issued because children’s perceptual, social, and linguistic developments are significantly influenced by the intensity and quality of infant-directed speech. This study was also intended to help parents understand the importance of compliment expression in early parenting. ",
       "link_doi": "https://doi.org/10.24036/humanus.v24i1.124679"
+    },
+    {
+      "type": "journal",
+      "title": "Parentinguistic: Have Parent’s Speeches Been Effective Towards Their Children?",
+      "authors": "Kurniawan",
+      "year": 2024,
+      "tags": [
+        "Parenting"
+      ],
+      "excerpt": "This research focuses on the effectiveness of directive speech acts spoken by parents to children. This type of research is qualitative and descriptive through a pragmatic approach. ",
+      "link_pdf": "",
+      "link_doi": "https://publikasi.dinus.ac.id/struktural/article/view/12247"
     },
     {
       "link_buy": "https://tokopedia.com/produk-buku",
@@ -73,29 +96,6 @@
       "link_doi": "https://dx.doi.org/10.30743/ll.v4i1.2406",
       "type": "journal",
       "year": 2020
-    },
-    {
-      "type": "journal",
-      "title": "Parentinguistic: Have Parent’s Speeches Been Effective Towards Their Children?",
-      "authors": "Kurniawan",
-      "year": 2024,
-      "tags": [
-        "Parenting"
-      ],
-      "excerpt": "This research focuses on the effectiveness of directive speech acts spoken by parents to children. This type of research is qualitative and descriptive through a pragmatic approach. ",
-      "link_pdf": "",
-      "link_doi": "https://publikasi.dinus.ac.id/struktural/article/view/12247"
-    },
-    {
-      "type": "book",
-      "title": "SELF-TALK: TINDAK PERLOKUSI RENUNGAN ORANG TUA SEBAGAI RESPON TUTURAN OLEH ANAK DALAM PARENTINGUISTIC",
-      "authors": "Kurniawan",
-      "year": 2025,
-      "tags": [
-        "Parenting"
-      ],
-      "excerpt": "Kami merasa perlu menerbitkan buku ini karena pentingnya memberikan pemahaman yang lebih mendalam tentang literasi, pembelajaran, dan metakognisi bagi pembaca, terutama di era digital yang sarat dengan informasi dan perubahan cepat. Buku ini diharapkan dapat memberikan wawasan yang komprehensif tentang bagaimana literasi tidak hanya mencakup kemampuan membaca dan menulis, tetapi juga kemampuan untuk menginterpretasi dan mengkritisi informasi secara efektif. Dengan semakin berkembangnya teknologi dan media informasi, keterampilan literasi yang kuat menjadi kebutuhan utama untuk dapat bertahan dan beradaptasi di dunia yang terus berubah.",
-      "link_pdf": "https://drive.google.com/file/d/1LCJTWkpgnlmoEKghnLOH2GD2uu4qnULV/view?usp=sharing"
     }
   ]
 }
